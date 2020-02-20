@@ -171,17 +171,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
+nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding-bottom: 1em;
 }
-header nav a {
+nav padding:2.5 a {
   text-decoration: none;
   color: black;
+  align-items: flex-end;
 }
-header h1 {
+h1 {
   align-items: center;
 }
 .pic {
@@ -204,6 +203,7 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -221,8 +221,11 @@ header h1 {
   border-bottom: 2px dashed #C0C0C0;
 }
 .home .inverse-content .text-content {
-  padding-left: 1%;
   padding-right: 0;
+}
+.home .inverse-content .text-content p {
+  font-size: 20px;
+  width: 50%;
 }
 .home .inverse-content .img-content {
   padding-right: 1%;
