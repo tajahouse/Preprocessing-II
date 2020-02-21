@@ -1,4 +1,6 @@
 .home {
+  border-top: 2px dashed @navigation-border;
+    padding-top: 1em;
 
   .content-section {
     margin: 30px 0;
@@ -6,16 +8,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-   
     
-    .text-content {
-      width: 48%;
+   .text-content {
+      width: 50%;
       padding-right: 1%;
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+   
     }
 
     .img-content {
-      width: 48%;
+      width: 45%;
       padding-left: 1%;
 
       img {
@@ -27,10 +33,12 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    
 
     .text-content {
       // padding-left: 1%;
       padding-right: 0;
+      
        p{
          font-size: 20px;
          width:50%;
@@ -52,9 +60,10 @@
     }
   }
 
+
   .content-pick {
     padding-top: 30px;
-    border-top: 2px dashed @navigation-border;
+    .borderedt();
     display: flex;
     justify-content: space-between;
 
