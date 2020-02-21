@@ -5,7 +5,11 @@
              justify-content: space-between;
             //  padding:2.5% 0;
              width:100%;
-            
+
+            @media @mobile {
+             .layout(center, center);
+           
+            }
 
              h1{
           
@@ -13,7 +17,7 @@
               align-items: center;
 
             
-            }
+            }//ends h1
              
             nav{
                 display:flex;
@@ -21,18 +25,21 @@
                  
 
                 a{
-            color: rgb(3, 3, 3);
+            color:black;
             text-decoration:none;            
             justify-content: space-between;
             padding-left: 1.5em;
             font-weight: 5px;
 
+            @media @mobile {
+                color:red;
+            }
                       
             
-                }        
+                } // ends a       
             
-        }//end of anchor
-        }//end of nav bar
+        }//end of nav
+        }//end of header
 .pic{
     width:100%;
     border-top: 2px dashed @navigation-border;
