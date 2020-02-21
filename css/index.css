@@ -177,29 +177,30 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
+header {
   display: flex;
   justify-content: space-between;
   padding: 2.5% 0;
   width: 100%;
 }
-nav .navb {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+header h1 {
+  display: inline;
+  align-items: center;
 }
-nav .navb a {
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
   color: black;
   text-decoration: none;
-  widows: 50%;
-  align-content: space-between;
-}
-h1 {
-  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  font-weight: 5px;
 }
 .pic {
   width: 100%;
-  border-top: 2px dashed gray;
+  border-top: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
